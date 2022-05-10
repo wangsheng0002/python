@@ -4,4 +4,5 @@ cursor=cont.cursor()
 cursor.execute("select *from t_vhc_route where vin_='LFWSRXSJOKFA10760' and end_gps_ is not null;")
 all=cursor.fetchall()
 print(all)
+print(type(all))
 
