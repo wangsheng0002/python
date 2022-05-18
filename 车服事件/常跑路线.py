@@ -19,5 +19,16 @@ url5=url+"route_service/get_routes"
 "'描述： 获取趟次详情'"
 url6=url+"route_service/get_route"
 
-r=requests.get(url=url1,headers=header,data=json.dumps(data1)).json()
-print(r)
+
+
+
+def add():
+    num = 0
+    while True:
+        yield num
+        num += 1
+
+a = add()
+print(next(a))
+print(next(a))
+print(next(a))
