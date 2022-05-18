@@ -30,5 +30,3 @@ def add():
 
 a = add()
 print(next(a))
-print(next(a))
-print(next(a))
